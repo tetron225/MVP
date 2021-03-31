@@ -126,6 +126,7 @@ class App extends React.Component {
         <div><CharacterInfo
             name={this.state.name}
             currentServer={this.state.currentServer}
+            hasInfo = {this.state.hasInfo}
             /></div>
 
         <div><ContainerMisc
